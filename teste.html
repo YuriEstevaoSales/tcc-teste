@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <style type="text/css">
+            body{
+                margin: 0px;
+                height: 360px;
+                width: 740px;
+
+            }
+            .center-screen {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                min-height: 100vh;
+            }
+            .celular{
+                margin: auto;
+                position: absolute;
+                border-color: black;
+                border-width: 1px;
+                border-style: solid;
+                margin-top:2.5%;
+                margin-left: 34%;
+                text-align: center;
+                width: 400px;
+                height: 600px;
+            }
+            table {
+                border-collapse: collapse;
+                background-color: lightgray;
+                margin-bottom: px;
+            }
+            
+            #conf {
+                float: right;
+            }
+            .lancamentos{
+                padding: 1%;
+                margin-bottom: 15px;
+                font-size: 37px;
+                text-align: center;
+            }
+            .lancamentos h1{
+                margin-top: -15px;
+                font-size: 130%
+            }
+            .carocel{
+                padding: 0px;
+            }
+            .lancamentos b{
+                font-size: 14px;
+            }
+            .text h1{
+                text-align: center;
+                font-size: 30px;
+                margin-top: 3px;
+            }
+            .photo{
+                float: left;
+            }
+            .text{
+                color: rgb(190, 190, 190);
+                float: left;
+                text-align: left;
+                font-size: 15px;
+                padding: 3px;
+            }
+            .controler{
+                margin-top: 25px;
+            }
+            button{
+                outline:none;
+                border:none;    
+                margin-bottom: 40px;
+            }
+            #Seguinte{
+                display: inline;
+                margin-left: 60px;
+                margin-top: 10px;
+            }
+            #Anterior{
+                margin-top: 10px;
+            }
+            #cima{
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            #baixo{
+                position: relative;
+                text-align: center;
+
+            }
+            #baixo img{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            }
+            @media all and (max-width:1024px) {
+                .celular { width:100%; height: 100%; margin-top: 12px; position:absolute; right:0px; }
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="celular">
+            <img id="cima" src="https://media.discordapp.net/attachments/484522592179585026/995887180440420422/unknown.png">
+            <main class="container-fuild">
+            <div class="container">
+                
+                
+
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                    
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img-fluid" src="https://media.discordapp.net/attachments/484522592179585026/995917876160626729/cardapio1.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="https://media.discordapp.net/attachments/484522592179585026/995920132427751455/cardapio2.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="https://media.discordapp.net/attachments/484522592179585026/995922250979086336/cardapio3.jpg" class="d-block w-100">
+                    </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+               
+            </div>
+            </main>
+            <!--<a aria-hidden="true" data-slide="prev" role="button" id="Anterior"> ⇦ Dia Anterior</a>-->
+            
+            <br>
+
+            <img id="baixo" src="https://media.discordapp.net/attachments/484522592179585026/995888400043343922/unknown.png">
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
